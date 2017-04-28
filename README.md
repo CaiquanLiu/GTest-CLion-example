@@ -1,0 +1,1 @@
+# GTest-CLion-example
