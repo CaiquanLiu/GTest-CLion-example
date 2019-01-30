@@ -10,7 +10,7 @@ include_directories(./googletest/include)
 # 将libtest.a添加到链接路径中（同时需要添加googletest运行需要的pthread）
 link_directories(./googletest)
 set(LIBRARIES
-        test
+        gtest
         pthread)
 
 set(SOURCE_FILES main.cpp)
