@@ -1,0 +1,7 @@
+D:/visual studio 2015/Projects/GTest-CLion-example/out/build/x64-Debug/CMakeFiles/GoodCodeEddy.dir
+D:/visual studio 2015/Projects/GTest-CLion-example/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+D:/visual studio 2015/Projects/GTest-CLion-example/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+D:/visual studio 2015/Projects/GTest-CLion-example/out/build/x64-Debug/googletest/CMakeFiles/gtest.dir
+D:/visual studio 2015/Projects/GTest-CLion-example/out/build/x64-Debug/googletest/CMakeFiles/gtest_main.dir
+D:/visual studio 2015/Projects/GTest-CLion-example/out/build/x64-Debug/googletest/CMakeFiles/edit_cache.dir
+D:/visual studio 2015/Projects/GTest-CLion-example/out/build/x64-Debug/googletest/CMakeFiles/rebuild_cache.dir
