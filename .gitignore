@@ -1,4 +1,7 @@
 /.idea/
+/.vs/
+.vs
+.vs/
 /cmake-build-debug/
 *.ipr
 *.iml
