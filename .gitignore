@@ -4,6 +4,8 @@ out
 .vs
 .vs/
 /cmake-build-debug/
+googletest/cmake-build-debug/
+googletest/.idea/
 *.ipr
 *.iml
 *.iws
