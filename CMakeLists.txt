@@ -13,6 +13,6 @@ set(LIBRARIES
         gtest
         pthread)
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES gtestmaiin.cpp)
 add_executable(GoodCodeEddy ${SOURCE_FILES})
 target_link_libraries(GoodCodeEddy ${LIBRARIES})
