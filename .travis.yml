@@ -11,7 +11,7 @@ install:
 before_script:
   - git submodule update --init --recursive
   - cd googletest
-  - git checkout v1.8.0
+  - git checkout release-1.8.1
   - cd ..
   - ls
   # create a build folder for the out-of-source build
