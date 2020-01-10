@@ -9,6 +9,8 @@ os:
 install:
 
 before_script:
+  - git submodule update --init --recursive
+  - ls
   # create a build folder for the out-of-source build
   - mkdir build
   # switch to build directory
