@@ -3,6 +3,9 @@
 .vs
 .vs/
 /cmake-build-debug/
+
+/cmake-build-release/
+
 *.ipr
 *.iml
 *.iws
