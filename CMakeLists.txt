@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.7)
-project(GoodCodeEddy)
+project(gtestexample)
 
 set(CMAKE_CXX_STANDARD 11)
 
@@ -13,6 +13,6 @@ set(LIBRARIES
         gtest
         pthread)
 
-set(SOURCE_FILES gtestmaiin.cpp)
-add_executable(GoodCodeEddy ${SOURCE_FILES})
-target_link_libraries(GoodCodeEddy ${LIBRARIES})
+set(SOURCE_FILES src/gtestmain.cpp)
+add_executable(gtestexample ${SOURCE_FILES})
+target_link_libraries(gtestexample ${LIBRARIES})
