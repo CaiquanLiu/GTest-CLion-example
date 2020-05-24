@@ -1,0 +1,37 @@
+language: cpp
+sudo: required
+dist: xenial
+compiler:
+  - gcc
+  - clang
+os:
+  - linux
+install:
+
+before_script:
+  - git submodule update --init --recursive
+  - cd googletest
+  - git clone https://github.com/google/googletest.git
+  - git checkout release-1.8.1
+#  - cd ..
+  - ls
+  # create a build folder for the out-of-source build
+  - mkdir build
+  # switch to build directory
+  - cd build
+  # run cmake; here we assume that the project's
+  # top-level CMakeLists.txt is located at '..'
+  - cmake ..
+addons:
+  apt:
+    update: true
+
+env:
+  - BUILD_TYPE=debug
+  - BUILD_TYPE=release
+script:
+  # once CMake has done its job we just build using make as usual
+  - sudo make
+  # if the project uses ctest we can run the tests like this
+#   - make test
+  - ./gtestexample
