@@ -1,0 +1,13 @@
+/.idea/
+out
+/.vs/
+.vs
+.vs/
+/cmake-build-debug/
+/cmake-build-release/
+*.ipr
+*.iml
+*.iws
+.settings/
+.project
+.classpath
